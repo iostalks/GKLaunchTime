@@ -11,7 +11,7 @@
 #import "GKBacktrace.h"
 #import <mach-o/dyld.h>
 #import <pthread/pthread.h>
-#import "fishhook.h"
+//#import "fishhook.h"
 #import <objc/message.h>
 
 #import "GKRunLoopObserver.h"

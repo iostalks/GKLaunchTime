@@ -38,14 +38,11 @@
 }
 
 + (void)save {
-    NSMutableString *str = [NSMutableString new];
     NSArray<GKBacktraceModel *> *arr = [self loadRecords];
     for (GKBacktraceModel *model in arr) {
         model.path = [NSString stringWithFormat:@"[%@ %@]", model.className, model.methodName];
-//        [self appendRecord:model text:str];
         NSLog(@"%@", model);
     }
-//    NSLog(@"result: %@", str);
 }
 
 + (void)saveAndClean {
