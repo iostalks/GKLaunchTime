@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE1F21ED2533F470002CBA24 /* GKRunLoopObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1F21EC2533F470002CBA24 /* GKRunLoopObserver.m */; };
+		AE6937842537F6D300CF7A92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6937832537F6D300CF7A92 /* UIKit.framework */; };
+		AE77A11025064B9A0062E8B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE77A10F25064B9A0062E8B2 /* AppDelegate.m */; };
+		AE77A11325064B9A0062E8B2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE77A11225064B9A0062E8B2 /* SceneDelegate.m */; };
+		AE77A11625064B9A0062E8B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE77A11525064B9A0062E8B2 /* ViewController.m */; };
+		AE77A11925064B9A0062E8B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE77A11725064B9A0062E8B2 /* Main.storyboard */; };
+		AE77A11B25064B9F0062E8B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE77A11A25064B9F0062E8B2 /* Assets.xcassets */; };
+		AE77A11E25064B9F0062E8B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE77A11C25064B9F0062E8B2 /* LaunchScreen.storyboard */; };
+		AE77A12125064B9F0062E8B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE77A12025064B9F0062E8B2 /* main.m */; };
+		AE77A12D2506574E0062E8B2 /* mach_backtrace.c in Sources */ = {isa = PBXBuildFile; fileRef = AE77A12C2506574E0062E8B2 /* mach_backtrace.c */; };
+		AE8B268E253DB14100EACD4D /* GKObjCHooK.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8B2685253DB14100EACD4D /* GKObjCHooK.m */; };
+		AE8B268F253DB14100EACD4D /* GKBacktrace.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8B2687253DB14100EACD4D /* GKBacktrace.m */; };
+		AE8B2690253DB14100EACD4D /* GKBacktraceCore.c in Sources */ = {isa = PBXBuildFile; fileRef = AE8B2689253DB14100EACD4D /* GKBacktraceCore.c */; };
+		AE8B2691253DB14100EACD4D /* GKBacktraceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8B268A253DB14100EACD4D /* GKBacktraceModel.m */; };
+		AE8B2692253DB14100EACD4D /* GKStackCapturer.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8B268D253DB14100EACD4D /* GKStackCapturer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE1F21EB2533F470002CBA24 /* GKRunLoopObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKRunLoopObserver.h; sourceTree = "<group>"; };
+		AE1F21EC2533F470002CBA24 /* GKRunLoopObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKRunLoopObserver.m; sourceTree = "<group>"; };
+		AE6937832537F6D300CF7A92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AE77A10B25064B9A0062E8B2 /* GKAppLaunchTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GKAppLaunchTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE77A10E25064B9A0062E8B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE77A10F25064B9A0062E8B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE77A11125064B9A0062E8B2 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		AE77A11225064B9A0062E8B2 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		AE77A11425064B9A0062E8B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE77A11525064B9A0062E8B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE77A11825064B9A0062E8B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE77A11A25064B9F0062E8B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE77A11D25064B9F0062E8B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE77A11F25064B9F0062E8B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE77A12025064B9F0062E8B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE77A12B2506574E0062E8B2 /* mach_backtrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mach_backtrace.h; sourceTree = "<group>"; };
+		AE77A12C2506574E0062E8B2 /* mach_backtrace.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mach_backtrace.c; sourceTree = "<group>"; };
+		AE8B2684253DB14100EACD4D /* GKStackCapturer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKStackCapturer.h; sourceTree = "<group>"; };
+		AE8B2685253DB14100EACD4D /* GKObjCHooK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKObjCHooK.m; sourceTree = "<group>"; };
+		AE8B2686253DB14100EACD4D /* GKObjCHooK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKObjCHooK.h; sourceTree = "<group>"; };
+		AE8B2687253DB14100EACD4D /* GKBacktrace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKBacktrace.m; sourceTree = "<group>"; };
+		AE8B2688253DB14100EACD4D /* GKBacktrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKBacktrace.h; sourceTree = "<group>"; };
+		AE8B2689253DB14100EACD4D /* GKBacktraceCore.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GKBacktraceCore.c; sourceTree = "<group>"; };
+		AE8B268A253DB14100EACD4D /* GKBacktraceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKBacktraceModel.m; sourceTree = "<group>"; };
+		AE8B268B253DB14100EACD4D /* GKBacktraceCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKBacktraceCore.h; sourceTree = "<group>"; };
+		AE8B268C253DB14100EACD4D /* GKBacktraceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKBacktraceModel.h; sourceTree = "<group>"; };
+		AE8B268D253DB14100EACD4D /* GKStackCapturer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKStackCapturer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE77A10825064B9A0062E8B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6937842537F6D300CF7A92 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE1F21EA2533F44F002CBA24 /* Lag */ = {
+			isa = PBXGroup;
+			children = (
+				AE1F21EB2533F470002CBA24 /* GKRunLoopObserver.h */,
+				AE1F21EC2533F470002CBA24 /* GKRunLoopObserver.m */,
+			);
+			path = Lag;
+			sourceTree = "<group>";
+		};
+		AE6937822537F6D300CF7A92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE6937832537F6D300CF7A92 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE77A10225064B9A0062E8B2 = {
+			isa = PBXGroup;
+			children = (
+				AE77A10D25064B9A0062E8B2 /* GKAppLaunchTime */,
+				AE77A10C25064B9A0062E8B2 /* Products */,
+				AE6937822537F6D300CF7A92 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE77A10C25064B9A0062E8B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE77A10B25064B9A0062E8B2 /* GKAppLaunchTime.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE77A10D25064B9A0062E8B2 /* GKAppLaunchTime */ = {
+			isa = PBXGroup;
+			children = (
+				AE1F21EA2533F44F002CBA24 /* Lag */,
+				AE77A12A250657300062E8B2 /* Backtrace */,
+				AE77A10E25064B9A0062E8B2 /* AppDelegate.h */,
+				AE77A10F25064B9A0062E8B2 /* AppDelegate.m */,
+				AE77A11125064B9A0062E8B2 /* SceneDelegate.h */,
+				AE77A11225064B9A0062E8B2 /* SceneDelegate.m */,
+				AE77A11425064B9A0062E8B2 /* ViewController.h */,
+				AE77A11525064B9A0062E8B2 /* ViewController.m */,
+				AE77A11725064B9A0062E8B2 /* Main.storyboard */,
+				AE77A11A25064B9F0062E8B2 /* Assets.xcassets */,
+				AE77A11C25064B9F0062E8B2 /* LaunchScreen.storyboard */,
+				AE77A11F25064B9F0062E8B2 /* Info.plist */,
+				AE77A12025064B9F0062E8B2 /* main.m */,
+			);
+			path = GKAppLaunchTime;
+			sourceTree = "<group>";
+		};
+		AE77A12A250657300062E8B2 /* Backtrace */ = {
+			isa = PBXGroup;
+			children = (
+				AE8B2688253DB14100EACD4D /* GKBacktrace.h */,
+				AE8B2687253DB14100EACD4D /* GKBacktrace.m */,
+				AE8B268B253DB14100EACD4D /* GKBacktraceCore.h */,
+				AE8B2689253DB14100EACD4D /* GKBacktraceCore.c */,
+				AE8B268C253DB14100EACD4D /* GKBacktraceModel.h */,
+				AE8B268A253DB14100EACD4D /* GKBacktraceModel.m */,
+				AE8B2686253DB14100EACD4D /* GKObjCHooK.h */,
+				AE8B2685253DB14100EACD4D /* GKObjCHooK.m */,
+				AE8B2684253DB14100EACD4D /* GKStackCapturer.h */,
+				AE8B268D253DB14100EACD4D /* GKStackCapturer.m */,
+				AE77A12B2506574E0062E8B2 /* mach_backtrace.h */,
+				AE77A12C2506574E0062E8B2 /* mach_backtrace.c */,
+			);
+			path = Backtrace;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE77A10A25064B9A0062E8B2 /* GKAppLaunchTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE77A12425064B9F0062E8B2 /* Build configuration list for PBXNativeTarget "GKAppLaunchTime" */;
+			buildPhases = (
+				AE77A10725064B9A0062E8B2 /* Sources */,
+				AE77A10825064B9A0062E8B2 /* Frameworks */,
+				AE77A10925064B9A0062E8B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GKAppLaunchTime;
+			productName = GKAppLaunchTime;
+			productReference = AE77A10B25064B9A0062E8B2 /* GKAppLaunchTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE77A10325064B9A0062E8B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = Smallfly;
+				TargetAttributes = {
+					AE77A10A25064B9A0062E8B2 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = AE77A10625064B9A0062E8B2 /* Build configuration list for PBXProject "GKAppLaunchTime" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE77A10225064B9A0062E8B2;
+			productRefGroup = AE77A10C25064B9A0062E8B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE77A10A25064B9A0062E8B2 /* GKAppLaunchTime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE77A10925064B9A0062E8B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE77A11E25064B9F0062E8B2 /* LaunchScreen.storyboard in Resources */,
+				AE77A11B25064B9F0062E8B2 /* Assets.xcassets in Resources */,
+				AE77A11925064B9A0062E8B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE77A10725064B9A0062E8B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1F21ED2533F470002CBA24 /* GKRunLoopObserver.m in Sources */,
+				AE8B2690253DB14100EACD4D /* GKBacktraceCore.c in Sources */,
+				AE8B268E253DB14100EACD4D /* GKObjCHooK.m in Sources */,
+				AE8B268F253DB14100EACD4D /* GKBacktrace.m in Sources */,
+				AE77A11625064B9A0062E8B2 /* ViewController.m in Sources */,
+				AE77A11025064B9A0062E8B2 /* AppDelegate.m in Sources */,
+				AE8B2691253DB14100EACD4D /* GKBacktraceModel.m in Sources */,
+				AE77A12125064B9F0062E8B2 /* main.m in Sources */,
+				AE77A11325064B9A0062E8B2 /* SceneDelegate.m in Sources */,
+				AE8B2692253DB14100EACD4D /* GKStackCapturer.m in Sources */,
+				AE77A12D2506574E0062E8B2 /* mach_backtrace.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE77A11725064B9A0062E8B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE77A11825064B9A0062E8B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE77A11C25064B9F0062E8B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE77A11D25064B9F0062E8B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE77A12225064B9F0062E8B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE77A12325064B9F0062E8B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE77A12525064B9F0062E8B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XH2Z24LF5H;
+				INFOPLIST_FILE = GKAppLaunchTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = me.smallfly.GKAppLaunchTime123;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE77A12625064B9F0062E8B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XH2Z24LF5H;
+				INFOPLIST_FILE = GKAppLaunchTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = me.smallfly.GKAppLaunchTime123;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE77A10625064B9A0062E8B2 /* Build configuration list for PBXProject "GKAppLaunchTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE77A12225064B9F0062E8B2 /* Debug */,
+				AE77A12325064B9F0062E8B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE77A12425064B9F0062E8B2 /* Build configuration list for PBXNativeTarget "GKAppLaunchTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE77A12525064B9F0062E8B2 /* Debug */,
+				AE77A12625064B9F0062E8B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE77A10325064B9A0062E8B2 /* Project object */;
+}
